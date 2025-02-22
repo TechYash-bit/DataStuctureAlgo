@@ -24,3 +24,34 @@ This repository contains implementations of two fundamental search algorithms in
   2. If it matches the target, return the index.  
   3. If the target is smaller, search in the left half; otherwise, search in the right half.  
   4. Repeat until the element is found or the search space is empty.  
+
+## 📂 Project Structure  
+
+```
+/Search-Algorithms
+│── binarySearch.java
+│── linearSearch.java
+│── README.md
+```
+
+## 🛠 How to Run  
+
+### Clone this repository:  
+```bash
+git clone https://github.com/your-username/Search-Algorithms.git
+```
+
+### Navigate to the project directory:  
+```bash
+cd Search-Algorithms
+```
+
+### Compile and run the Java files:  
+```bash
+javac binarySearch.java linearSearch.java
+java binarySearch
+java linearSearch
+```
+
+## 👨‍💻 Author  
+[TechYash-bit](https://github.com/TechYash-bit)   
