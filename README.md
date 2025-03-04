@@ -1,10 +1,11 @@
-# 🔍 Search Algorithms in Java  
+# 🔍 Search & Sorting Algorithms in Java  
 
 ## 📌 About the Project  
-This repository contains implementations of two fundamental search algorithms in Java:  
+This repository contains implementations of three fundamental algorithms in Java:  
 
 - **Linear Search** 🟢 - A simple search algorithm that checks each element one by one.  
 - **Binary Search** 🔵 - A faster search algorithm that works on sorted arrays using the divide-and-conquer approach.  
+- **Selection Sort** 🟠 - A sorting algorithm that repeatedly selects the smallest element and swaps it into place.  
 
 ## 🚀 How It Works  
 
@@ -25,12 +26,21 @@ This repository contains implementations of two fundamental search algorithms in
   3. If the target is smaller, search in the left half; otherwise, search in the right half.  
   4. Repeat until the element is found or the search space is empty.  
 
+### **3️⃣ Selection Sort**  
+- **Time Complexity:** `O(n²)`  
+- **Best for:** Small datasets, simple implementation  
+- **How it works:**  
+  1. Find the smallest element in the array.  
+  2. Swap it with the first element.  
+  3. Repeat for the remaining unsorted elements.  
+
 ## 📂 Project Structure  
 
 ```
-/Search-Algorithms
+/Algorithms
 │── binarySearch.java
 │── linearSearch.java
+│── selectionSort.java
 │── README.md
 ```
 
@@ -48,10 +58,15 @@ cd Search-Algorithms
 
 ### Compile and run the Java files:  
 ```bash
-javac binarySearch.java linearSearch.java
+javac binarySearch.
 java binarySearch
+
+java linearSearch.
 java linearSearch
+
+java selectionSort.java
+java selectionSort
 ```
 
 ## 👨‍💻 Author  
-[TechYash-bit](https://github.com/TechYash-bit)   
+[TechYash-bit](https://github.com/TechYash-bit)  
